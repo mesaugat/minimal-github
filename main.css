@@ -1,0 +1,9 @@
+.dashboard > .dashboard-sidebar > .user-repos,
+.dashboard > .dashboard-sidebar > .boxed-group,
+.dashboard > .dashboard-sidebar > .Box--condensed {
+  display: none;
+}
+
+.dashboard > .dashboard-sidebar.column.one-third {
+  width: 20%;
+}
