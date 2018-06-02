@@ -2,16 +2,23 @@
 
 > GitHub dashboard just like you wanted it to be.
 
-Removes those not so useful sidebars from your GitHub feed and let's you focus on your task ahead.
+## Features
 
-## Install
+* No sidebars
+* No buttons
+* No boxes
+* Consistent padding/margin
+* Consistent font sizes
+
+## Try it Out
 
 * [Chrome Extension](https://chrome.google.com/webstore/detail/minimal-github/hpcjfhednekpbnndkceoaoippdogepae)
 * [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/minimal-github/)
 
 ## Screenshot
 
-![Minimal GitHub](https://i.imgur.com/qZMqNks.png)
+![Minimal GitHub (Browse activity)](https://i.imgur.com/pi9cMez.png)
+![Minimal GitHub (Discover repositories)](https://i.imgur.com/CO1736V.png)
 
 ## License
 
