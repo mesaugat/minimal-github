@@ -25,6 +25,10 @@
 
 ![Minimal GitHub (Discover repositories)](https://i.imgur.com/CO1736V.png)
 
+## Contributing
+
+Please file an [issue](https://github.com/mesaugat/minimal-github/issues/new) if you find any inconsistencies. Suggestions are welcome!
+
 ## License
 
 [MIT](LICENSE)
