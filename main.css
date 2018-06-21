@@ -1,5 +1,5 @@
 /**
- * Remove sidebars.
+ * Remove sidebar elements.
  */
 .dashboard > .dashboard-sidebar > .d-block,
 .dashboard > .dashboard-sidebar > .user-repos,
@@ -11,7 +11,7 @@
 
 /**
  * Decrease the sidebar column width which shows the username
- * so that the news feed looks in the center.
+ * so that the news feed moves to the center.
  */
 .dashboard > .dashboard-sidebar.column.one-third {
   width: 20%;
