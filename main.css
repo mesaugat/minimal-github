@@ -3,6 +3,7 @@
  */
 .dashboard > .dashboard-sidebar > .user-repos,
 .dashboard > .dashboard-sidebar > .boxed-group,
+.dashboard > .dashboard-sidebar > .octofication,
 .dashboard > .dashboard-sidebar > .Box--condensed {
   display: none;
 }
