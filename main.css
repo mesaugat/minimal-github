@@ -1,6 +1,7 @@
 /**
  * Remove sidebars.
  */
+.dashboard > .dashboard-sidebar > .d-block,
 .dashboard > .dashboard-sidebar > .user-repos,
 .dashboard > .dashboard-sidebar > .boxed-group,
 .dashboard > .dashboard-sidebar > .octofication,
