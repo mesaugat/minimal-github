@@ -9,6 +9,7 @@
 * No boxes
 * Consistent padding/margin
 * Consistent font sizes
+* Activity feed aligned to the center
 
 ## Try it Out
 
