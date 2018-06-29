@@ -72,6 +72,7 @@
 .dashboard .news .issues_opened .flex-column .Box.p-3,
 .dashboard .news .issues_closed .flex-column .Box.p-3,
 .dashboard .news .issues_comment .flex-column .Box.p-3,
+.dashboard .news .commit_comment .flex-column .Box.p-3,
 .dashboard .news .issues_reopened .flex-column .Box.p-3 {
   padding: 8px !important;
 }
@@ -113,6 +114,14 @@
 .dashboard .news .issues_comment .flex-column .message .f6 a,
 .dashboard .news .commit_comment .flex-column .message .f6 a {
   display: none;
+}
+
+/**
+ * Remove bottom margin for hidden repository title.
+ */
+.dashboard .news .commit_comment .flex-column .message .f6.mb-1,
+.dashboard .news .issues_comment .flex-column .message .f6.mb-1 {
+  margin-bottom: 0px !important;
 }
 
 /**
@@ -164,6 +173,7 @@
  */
 .dashboard .news .issues_closed .d-flex.flex-items-baseline.mb-2,
 .dashboard .news .issues_comment .d-flex.flex-items-baseline.mb-2,
+.dashboard .news .commit_comment .d-flex.flex-items-baseline.mb-2,
 .dashboard .news .issues_reopened .d-flex.flex-items-baseline.mb-2 {
   margin-bottom: 0px !important;
 }
