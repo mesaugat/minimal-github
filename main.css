@@ -98,15 +98,6 @@
 }
 
 /**
- * Decrease the padding for each repository in discover
- * repository section.
- */
-.dashboard .news .js-discover-repositories .js-repository-recommendation.py-4 {
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
-}
-
-/**
  * Do not display repository title for some of the news
  * feed items.
  */
