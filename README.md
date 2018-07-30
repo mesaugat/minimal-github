@@ -11,18 +11,14 @@
 * Consistent font sizes
 * Activity feed aligned to the center
 
-The 'Discover Repositories' page is left untouched.
-
 ## Try it Out
 
 * [Chrome Extension](https://chrome.google.com/webstore/detail/minimal-github/hpcjfhednekpbnndkceoaoippdogepae)
 * [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/minimal-github/)
 
-## Screenshots
+## Screenshot
 
-### Main Feed
-
-![Minimal GitHub (Browse activity)](https://i.imgur.com/pi9cMez.png)
+![Minimal GitHub](https://i.imgur.com/BU1PPdg.png)
 
 ## Contributing
 
