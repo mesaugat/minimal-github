@@ -24,6 +24,7 @@
 .dashboard .news .repo .Box,
 .dashboard .news .fork .Box,
 .dashboard .news .push .Box,
+.dashboard .news .public .Box,
 .dashboard .news .follow .Box,
 .dashboard .news .release .Box,
 .dashboard .news .git-branch .Box,
@@ -58,17 +59,19 @@
 /**
  * Remove unwanted padding and margin from issues div.
  */
-.dashboard .news .issues_opened .border.p-3.my-2,
-.dashboard .news .issues_closed .border.p-3.my-2,
-.dashboard .news .issues_labeled .border.p-3.my-2 {
+.dashboard .news .public .Box.p-3.my-2,
+.dashboard .news .issues_opened .Box.p-3.my-2,
+.dashboard .news .issues_closed .Box.p-3.my-2,
+.dashboard .news .issues_labeled .Box.p-3.my-2 {
   padding: 8px !important;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
 }
 
 /**
- * Set consistent padding for issues_comment feed.
+ * Set consistent padding for feed items.
  */
+.dashboard .news .public .flex-column .Box.p-3,
 .dashboard .news .issues_opened .flex-column .Box.p-3,
 .dashboard .news .issues_closed .flex-column .Box.p-3,
 .dashboard .news .issues_comment .flex-column .Box.p-3,
@@ -82,6 +85,8 @@
  */
 .dashboard .news .fork .f4,
 .dashboard .news .repo .f4,
+.dashboard .news .public .f4,
+.dashboard .news .watch_started .f4,
 .dashboard .news .issues_opened .f4,
 .dashboard .news .issues_closed .f4,
 .dashboard .news .issues_labeled .f4,
@@ -101,7 +106,6 @@
  * Do not display repository title for some of the news
  * feed items.
  */
-.dashboard .news .watch_started .Box .f4 a,
 .dashboard .news .issues_comment .flex-column .message .f6 a,
 .dashboard .news .commit_comment .flex-column .message .f6 a {
   display: none;
@@ -125,11 +129,17 @@
   margin-top: 0px !important;
 }
 
+/**
+ * Hide repository name from tag and branch feeds.
+ */
 .dashboard .news .tag .Box .f4.text-gray-dark,
 .dashboard .news .git-branch .Box .f4.text-gray-dark {
   display: none;
 }
 
+/**
+ * Aesthetic change for text to look good on these feed items.
+ */
 .dashboard .news .tag .flex-column .Box.p-3.mt-2,
 .dashboard .news .git-branch .flex-column .Box.p-3.mt-2 {
   padding: 0px !important;
@@ -167,4 +177,11 @@
 .dashboard .news .commit_comment .d-flex.flex-items-baseline.mb-2,
 .dashboard .news .issues_reopened .d-flex.flex-items-baseline.mb-2 {
   margin-bottom: 0px !important;
+}
+
+/**
+ * Remove user information div from follow feed.
+ */
+.dashboard .news .follow .Box.p-3.mt-2 {
+  display: none;
 }
