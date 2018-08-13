@@ -11,6 +11,8 @@
 * Consistent font sizes
 * Activity feed aligned to the center
 
+**Minimal GitHub doesn't work with the new public (Beta) GitHub dashboard UI.**
+
 ## Try it Out
 
 * [Chrome Extension](https://chrome.google.com/webstore/detail/minimal-github/hpcjfhednekpbnndkceoaoippdogepae)
