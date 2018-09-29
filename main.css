@@ -31,6 +31,7 @@
 .dashboard .news .watch_started .Box,
 .dashboard .news .issues_opened .Box,
 .dashboard .news .issues_closed .Box,
+.dashboard .news .issues_labeled .Box,
 .dashboard .news .commit_comment .Box,
 .dashboard .news .issues_comment .Box,
 .dashboard .news .issues_reopened .Box {
