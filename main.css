@@ -2,6 +2,7 @@
  * Remove sidebar elements.
  */
 .dashboard > .dashboard-sidebar > .d-block,
+.dashboard > .dashboard-sidebar > .js-notice,
 .dashboard > .dashboard-sidebar > .user-repos,
 .dashboard > .dashboard-sidebar > .boxed-group,
 .dashboard > .dashboard-sidebar > .octofication,
