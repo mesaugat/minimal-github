@@ -187,3 +187,10 @@
 .dashboard .news .follow .Box.p-3.mt-2 {
   display: none;
 }
+
+/**
+ * Remove expired academic discount coupon alert box.
+ */
+.flash {
+  display: none;
+}
