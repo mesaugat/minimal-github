@@ -180,10 +180,3 @@
 .dashboard .news .issues_reopened .d-flex.flex-items-baseline.mb-2 {
   margin-bottom: 0px !important;
 }
-
-/**
- * Remove user information div from follow feed.
- */
-.dashboard .news .follow .Box.p-3.mt-2 {
-  display: none;
-}
