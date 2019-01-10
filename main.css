@@ -180,3 +180,10 @@
 .dashboard .news .issues_reopened .d-flex.flex-items-baseline.mb-2 {
   margin-bottom: 0px !important;
 }
+
+/**
+ * Set font size of followed user's name.
+ */
+ .dashboard .news .follow .Box.p-3.mt-2 .f4 {
+  font-size: 14px !important;
+}
