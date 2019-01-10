@@ -157,7 +157,7 @@
 }
 
 /**
- * Consistent marging for release and wiki description.
+ * Consistent margin for release and wiki description.
  */
 .dashboard .news .gollum .d-flex ul li,
 .dashboard .news .release .d-flex ul li {
@@ -182,8 +182,8 @@
 }
 
 /**
- * Remove user information div from follow feed.
+ * Decrease font size of followed user's name.
  */
-.dashboard .news .follow .Box.p-3.mt-2 {
-  display: none;
+.dashboard .news .follow .Box.p-3.mt-2 .f4 {
+  font-size: 14px !important;
 }
