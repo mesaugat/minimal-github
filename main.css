@@ -48,10 +48,8 @@
 /**
  * Remove star, unstar, follow and unfollow buttons from the feed.
  */
-.starred,
-.unstarred,
-.follow,
-.unfollow {
+.float-right.d-inline-block.js-toggler-container.starring-container,
+.float-right.d-inline-block.user-following-container.js-toggler-container.js-social-container {
   display: none !important;
 }
 
