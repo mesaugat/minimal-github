@@ -53,8 +53,9 @@
 }
 
 /**
- * Fix the font size of followed people to 14px.
+ * Fix the font size of followed user's name and starred repos to 14px.
  */
-.f4 .text-bold .link-gray-dark .no-underline {
+.f4.text-bold.link-gray-dark.no-underline,
+.f4.lh-condensed.text-bold.text-gray-dark {
   font-size: 14px !important;
 }
