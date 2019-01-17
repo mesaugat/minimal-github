@@ -1,14 +1,16 @@
 /**
- * Remove list of repositories from sidebar.
+ * Remove right sidebar and list of repositories from left sidebar.
  */
-.dashboard-sidebar > .js-repos-container {
-  display: none;
+.dashboard-sidebar > .js-repos-container,
+.team-left-column.col-12.col-md-3 {
+  display: none !important;
 }
 
 /**
- * Remove background color from sidebar.
+ * Remove background color from sidebar and repositories in the feed.
  */
-.d-flex > .team-left-column {
+.d-flex > .team-left-column,
+.d-flex > .Box {
   background-color: transparent !important;
 }
 
@@ -17,20 +19,6 @@
  */
 .d-flex > .team-left-column.border-right {
   border-right: 0px !important;
-}
-
-/**
- * Remove background color from repository name.
- */
-.d-flex > .Box  {
-  background-color: transparent !important;
-}
-
-/**
- * Remove right side bar.
- */
-.team-left-column.col-12.col-md-3 {
-  display: none !important;
 }
 
 /**
