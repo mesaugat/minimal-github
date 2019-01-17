@@ -10,7 +10,7 @@
  * Remove background color from sidebar and repositories in the feed.
  */
 .d-flex > .team-left-column,
-.d-flex > .Box {
+.Box {
   background-color: transparent !important;
 }
 
