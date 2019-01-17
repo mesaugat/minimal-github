@@ -1,189 +1,41 @@
 /**
- * Remove sidebar elements.
+ * Remove list of repositories from sidebar.
  */
-.dashboard > .dashboard-sidebar > .d-block,
-.dashboard > .dashboard-sidebar > .js-notice,
-.dashboard > .dashboard-sidebar > .user-repos,
-.dashboard > .dashboard-sidebar > .boxed-group,
-.dashboard > .dashboard-sidebar > .octofication,
-.dashboard > .dashboard-sidebar > .Box--condensed {
+.dashboard-sidebar > .js-repos-container {
   display: none;
 }
 
 /**
- * Decrease the sidebar column width which shows the username
- * so that the news feed moves to the center.
+ * Remove background color from sidebar.
  */
-.dashboard > .dashboard-sidebar.column.one-third {
-  width: 20%;
+.d-flex > .team-left-column {
+  background-color: transparent !important;
 }
 
 /**
- * Remove border from news feed items.
+ * Remove the border from left sidebar.
  */
-.dashboard .news .tag .Box,
-.dashboard .news .repo .Box,
-.dashboard .news .fork .Box,
-.dashboard .news .push .Box,
-.dashboard .news .public .Box,
-.dashboard .news .follow .Box,
-.dashboard .news .release .Box,
-.dashboard .news .git-branch .Box,
-.dashboard .news .watch_started .Box,
-.dashboard .news .issues_opened .Box,
-.dashboard .news .issues_closed .Box,
-.dashboard .news .issues_labeled .Box,
-.dashboard .news .commit_comment .Box,
-.dashboard .news .issues_comment .Box,
-.dashboard .news .issues_reopened .Box {
-  border: none;
+.d-flex > .team-left-column.border-right {
+  border-right: 0px !important;
 }
 
 /**
- * Remove border from other feed items.
+ * Remove background color from repository name.
  */
-.dashboard .news .fork .border,
-.dashboard .news .issues_opened .border,
-.dashboard .news .issues_closed .border,
-.dashboard .news .issues_labeled .border {
-  border: none !important;
+.d-flex > .Box  {
+  background-color: transparent !important;
 }
 
 /**
- * Remove unwanted padding and margin from feed items.
+ * Remove right side bar.
  */
-.dashboard .news .flex-column .Box.p-3.mt-2,
-.dashboard .news .flex-column .border.p-3.mt-2 {
-  padding: 8px !important;
-  margin-top: 0px !important;
-}
-
-/**
- * Remove unwanted padding and margin from issues div.
- */
-.dashboard .news .public .Box.p-3.my-2,
-.dashboard .news .issues_opened .Box.p-3.my-2,
-.dashboard .news .issues_closed .Box.p-3.my-2,
-.dashboard .news .issues_labeled .Box.p-3.my-2 {
-  padding: 8px !important;
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-}
-
-/**
- * Set consistent padding for feed items.
- */
-.dashboard .news .public .flex-column .Box.p-3,
-.dashboard .news .issues_opened .flex-column .Box.p-3,
-.dashboard .news .issues_closed .flex-column .Box.p-3,
-.dashboard .news .issues_comment .flex-column .Box.p-3,
-.dashboard .news .commit_comment .flex-column .Box.p-3,
-.dashboard .news .issues_reopened .flex-column .Box.p-3 {
-  padding: 8px !important;
-}
-
-/**
- * Decrease font size for labeled issue to default.
- */
-.dashboard .news .fork .f4,
-.dashboard .news .repo .f4,
-.dashboard .news .public .f4,
-.dashboard .news .watch_started .f4,
-.dashboard .news .issues_opened .f4,
-.dashboard .news .issues_closed .f4,
-.dashboard .news .issues_labeled .f4,
-.dashboard .news .issues_reopened .f4 {
-  font-size: 14px !important;
-}
-
-/**
- * Remove star and follow buttons from news feed.
- */
-.dashboard .news .starring-container,
-.dashboard .news .user-following-container {
+.team-left-column.col-12.col-md-3 {
   display: none !important;
 }
 
 /**
- * Do not display repository title for some of the news
- * feed items.
+ * Prevent the feed from taking the entire available width of the page.
  */
-.dashboard .news .issues_comment .flex-column .message .f6 a,
-.dashboard .news .commit_comment .flex-column .message .f6 a {
-  display: none;
-}
-
-/**
- * Remove bottom margin for hidden repository title.
- */
-.dashboard .news .commit_comment .flex-column .message .f6.mb-1,
-.dashboard .news .issues_comment .flex-column .message .f6.mb-1 {
-  margin-bottom: 0px !important;
-}
-
-/**
- * Remove margin from starred, tagged, watched repository
- * description.
- */
-.dashboard .news .tag .Box .text-gray.mt-2,
-.dashboard .news .git-branch .Box .text-gray.mt-2,
-.dashboard .news .watch_started .Box .text-gray.mt-1 {
-  margin-top: 0px !important;
-}
-
-/**
- * Hide repository name from tag and branch feeds.
- */
-.dashboard .news .tag .Box .f4.text-gray-dark,
-.dashboard .news .git-branch .Box .f4.text-gray-dark {
-  display: none;
-}
-
-/**
- * Aesthetic change for text to look good on these feed items.
- */
-.dashboard .news .tag .flex-column .Box.p-3.mt-2,
-.dashboard .news .git-branch .flex-column .Box.p-3.mt-2 {
-  padding: 0px !important;
-  margin-top: 4px !important;
-}
-
-/**
- * Set consistent margin for tagged, branched feed description.
- */
-.dashboard .news .tag .flex-column .Box .text-gray.mt-2,
-.dashboard .news .git-branch .flex-column .Box .text-gray.mt-2 {
-  margin-left: 8px !important;
-}
-
-/**
- * Consistent margin for release and wiki description.
- */
-.dashboard .news .gollum .d-flex ul li,
-.dashboard .news .release .d-flex ul li {
-  margin-left: 8px !important;
-}
-
-/**
- * Remove top margin from comment feed for consistency.
- */
-.dashboard .news .issues_comment .d-flex.mt-2 {
-  margin-top: 0px !important;
-}
-
-/**
- * Remove bottom margin from issues feed.
- */
-.dashboard .news .issues_closed .d-flex.flex-items-baseline.mb-2,
-.dashboard .news .issues_comment .d-flex.flex-items-baseline.mb-2,
-.dashboard .news .commit_comment .d-flex.flex-items-baseline.mb-2,
-.dashboard .news .issues_reopened .d-flex.flex-items-baseline.mb-2 {
-  margin-bottom: 0px !important;
-}
-
-/**
- * Set font size of followed user's name.
- */
- .dashboard .news .follow .Box.p-3.mt-2 .f4 {
-  font-size: 14px !important;
+.col-12.col-md-8.col-lg-6.p-responsive.mt-3.border-bottom.d-flex.flex-auto {
+  flex: 0 0 auto !important;
 }
