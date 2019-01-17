@@ -51,3 +51,10 @@
 .starred {
   display: none !important;
 }
+
+/**
+ * Fix the font size of followed people to 14px.
+ */
+.f4 .text-bold .link-gray-dark .no-underline {
+  font-size: 14px !important;
+}
