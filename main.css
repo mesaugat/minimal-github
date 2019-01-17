@@ -44,3 +44,10 @@
 .col-12.col-md-8.col-lg-6.p-responsive.mt-3.border-bottom.d-flex.flex-auto {
   flex: 0 0 auto !important;
 }
+
+/**
+ * Remove Star/Unstar button from the feed.
+ */
+.starred {
+  display: none !important;
+}
