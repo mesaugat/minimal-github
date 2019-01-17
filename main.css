@@ -46,9 +46,12 @@
 }
 
 /**
- * Remove Star/Unstar button from the feed.
+ * Remove star, unstar, follow and unfollow buttons from the feed.
  */
-.starred {
+.starred,
+.unstarred,
+.follow,
+.unfollow {
   display: none !important;
 }
 
