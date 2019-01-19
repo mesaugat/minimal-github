@@ -1,18 +1,18 @@
 /**
- * Remove right sidebar and list of repositories from left sidebar.
+ * Remove left and right sidebar.
  */
-.dashboard-sidebar > .js-repos-container,
-.team-left-column.col-12.col-md-3 {
+.team-left-column .btn,
+.team-left-column.col-12.col-md-3,
+.team-left-column div[data-team-hovercards-enabled],
+.team-left-column div[data-repository-hovercards-enabled] {
   display: none !important;
 }
 
 /**
- * Remove background color from sidebar and repositories in the feed.
+ * Remove gray background color.
  */
-.d-flex > .team-left-column,
-.d-flex > div > .Box,
-.d-flex > .Box {
-  background-color: transparent !important;
+.d-flex.bg-gray {
+  background-color: #ffffff !important;
 }
 
 /**
@@ -25,7 +25,7 @@
 }
 
 /**
- * Remove padding from starred repos.
+ * Remove padding from starred repositories.
  */
 .d-flex .flex-items-baseline .border-bottom .border-gray .py-3 {
   padding: 0px !important;
@@ -54,7 +54,7 @@
 }
 
 /**
- * Fix the font size of followed user's name and starred repos to 14px.
+ * Smaller font size for followed user's name and starred repositories.
  */
 .f4.text-bold.link-gray-dark.no-underline,
 .f4.lh-condensed.text-bold.text-gray-dark {
