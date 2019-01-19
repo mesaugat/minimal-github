@@ -4,19 +4,17 @@
 
 ## Features
 
-* No sidebars
-* No buttons
-* No boxes
-* Consistent padding/margin
-* Consistent font sizes
-* Activity feed aligned to the center
-
-**Minimal GitHub doesn't work with the new public (Beta) GitHub dashboard UI.**
+- No sidebars
+- No buttons
+- No boxes
+- Consistent padding/margin
+- Consistent font sizes
+- Activity feed aligned to the center
 
 ## Try it Out
 
-* [Chrome Extension](https://chrome.google.com/webstore/detail/minimal-github/hpcjfhednekpbnndkceoaoippdogepae)
-* [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/minimal-github/)
+- [Chrome Extension](https://chrome.google.com/webstore/detail/minimal-github/hpcjfhednekpbnndkceoaoippdogepae)
+- [Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/minimal-github/)
 
 ## Screenshot
 
