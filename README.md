@@ -18,7 +18,7 @@
 
 ## Screenshot
 
-![Minimal GitHub](https://i.imgur.com/BU1PPdg.png)
+![Minimal GitHub](https://i.imgur.com/Z0tIYyc.png)
 
 ## Contributing
 
