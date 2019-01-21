@@ -1,15 +1,22 @@
 /**
- * Remove left and right sidebar.
+ * Do not display the left sidebar.
  */
 .team-left-column .btn,
-.team-left-column.col-12.col-md-3,
 .team-left-column div[data-team-hovercards-enabled],
 .team-left-column div[data-repository-hovercards-enabled] {
+  display: none;
+}
+
+/**
+ * Hide visibility of the right sidebar and retain it's width
+ * so that the news feed doesn't take all the space.
+ */
+.team-left-column.col-12.col-md-3 {
   visibility: hidden;
 }
 
 /**
- * Remove gray background color.
+ * Remove gray background color and set it to white.
  */
 .d-flex.bg-gray {
   background-color: #ffffff !important;
