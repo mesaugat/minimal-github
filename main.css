@@ -5,7 +5,7 @@
 .team-left-column.col-12.col-md-3,
 .team-left-column div[data-team-hovercards-enabled],
 .team-left-column div[data-repository-hovercards-enabled] {
-  display: none !important;
+  visibility: hidden;
 }
 
 /**
@@ -36,13 +36,6 @@
  */
 .d-flex > .team-left-column.border-right {
   border-right: 0px !important;
-}
-
-/**
- * Prevent the feed from taking the entire available width of the page.
- */
-.col-12.col-md-8.col-lg-6.p-responsive.mt-3.border-bottom.d-flex.flex-auto {
-  flex: 0 0 auto !important;
 }
 
 /**
