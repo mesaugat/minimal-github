@@ -1,7 +1,6 @@
 /**
  * Do not display the left sidebar.
  */
-.team-left-column .btn,
 .team-left-column div[data-team-hovercards-enabled],
 .team-left-column div[data-repository-hovercards-enabled] {
   display: none;
