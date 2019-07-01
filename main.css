@@ -38,13 +38,6 @@
 }
 
 /**
- * Remove the border from left sidebar.
- */
-.d-flex > .team-left-column.border-right {
-  border-right: 0px !important;
-}
-
-/**
  * Remove star, unstar, follow and unfollow buttons from the feed.
  */
 .dashboard .float-right.d-inline-block.js-toggler-container.starring-container,
