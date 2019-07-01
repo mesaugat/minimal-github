@@ -3,7 +3,7 @@
   "short_name": "minimal-github",
   "description": "A minimalistic GitHub dashboard",
   "manifest_version": 2,
-  "version": "2.0.2",
+  "version": "2.1.0",
   "author": "Saugat Acharya <mesaugat@gmail.com>",
   "homepage_url": "https://github.com/mesaugat/minimal-github",
   "content_scripts": [
