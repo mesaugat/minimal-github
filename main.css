@@ -24,7 +24,7 @@
 /**
  * Remove border and padding from items in feed.
  */
-.d-flex > .Box,
+.dashboard .d-flex > .Box,
 .d-flex > div > .Box {
   border: none !important;
   padding: 0px !important;
@@ -33,7 +33,7 @@
 /**
  * Remove padding from starred repositories.
  */
-.d-flex .flex-items-baseline .border-bottom .border-gray .py-3 {
+.dashboard .d-flex .flex-items-baseline .border-bottom .border-gray .py-3 {
   padding: 0px !important;
 }
 
@@ -47,15 +47,15 @@
 /**
  * Remove star, unstar, follow and unfollow buttons from the feed.
  */
-.float-right.d-inline-block.js-toggler-container.starring-container,
-.float-right.d-inline-block.user-following-container.js-toggler-container.js-social-container {
+.dashboard .float-right.d-inline-block.js-toggler-container.starring-container,
+.dashboard .float-right.d-inline-block.user-following-container.js-toggler-container.js-social-container {
   display: none !important;
 }
 
 /**
  * Smaller font size for followed user's name and starred repositories.
  */
-.f4.text-bold.link-gray-dark.no-underline,
-.f4.lh-condensed.text-bold.text-gray-dark {
+.dashboard .f4.text-bold.link-gray-dark.no-underline,
+.dashboard .f4.lh-condensed.text-bold.text-gray-dark {
   font-size: 14px !important;
 }
