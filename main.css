@@ -25,7 +25,7 @@
  * Remove border and padding from items in feed.
  */
 .dashboard .d-flex > .Box,
-.d-flex > div > .Box {
+.dashboard .d-flex > div > .Box {
   border: none !important;
   padding: 0px !important;
 }
